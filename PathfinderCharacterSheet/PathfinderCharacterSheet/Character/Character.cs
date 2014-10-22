@@ -8,6 +8,17 @@ namespace PathfinderCharacterSheet
 {
     class Character
     {
-       private Stats stats = new Stats();
+        private Stats stats;
+
+        public Character()
+        {
+            stats = new Stats();
+        }
+
+        public List<int> getStats()
+        {
+            return stats.getStats();
+        }
+
     }
 }

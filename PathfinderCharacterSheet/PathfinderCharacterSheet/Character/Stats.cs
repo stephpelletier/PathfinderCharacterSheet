@@ -27,5 +27,26 @@ namespace PathfinderCharacterSheet
             wisdomAdjustment = 0;
             charismaAdjustment = 0;
         }
+
+        public List<int> getStats()
+        {
+            List<int> stats = new List<int>();
+
+            stats.Add(strength);
+            stats.Add(dexterity);
+            stats.Add(constitution);
+            stats.Add(intelligence);
+            stats.Add(wisdom);
+            stats.Add(charisma);
+
+            stats.Add(strengthAdjustment);
+            stats.Add(dexterityAdjustment);
+            stats.Add(constitutionAdjustment);
+            stats.Add(intelligenceAdjustment);
+            stats.Add(wisdomAdjustment);
+            stats.Add(charismaAdjustment);
+
+            return stats;
+        }
     }
 }
