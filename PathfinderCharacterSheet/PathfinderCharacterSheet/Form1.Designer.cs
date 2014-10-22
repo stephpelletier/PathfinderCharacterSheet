@@ -31,33 +31,33 @@
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.txtCharismaTempModifier = new System.Windows.Forms.TextBox();
+            this.txtWisdomTempModifier = new System.Windows.Forms.TextBox();
+            this.txtIntelligenceTempModifier = new System.Windows.Forms.TextBox();
+            this.txtConstitutionTempModifier = new System.Windows.Forms.TextBox();
+            this.txtDexterityTempModifier = new System.Windows.Forms.TextBox();
+            this.txtStrengthTempModifier = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtCharismaTempAdjustment = new System.Windows.Forms.TextBox();
+            this.txtWisdomTempAdjustment = new System.Windows.Forms.TextBox();
+            this.txtIntelligenceTempAdjustment = new System.Windows.Forms.TextBox();
+            this.txtConstitutionTempAdjustment = new System.Windows.Forms.TextBox();
+            this.txtDexterityTempAdjustment = new System.Windows.Forms.TextBox();
+            this.txtStrengthTempAdjustment = new System.Windows.Forms.TextBox();
+            this.txtCharismaModifier = new System.Windows.Forms.TextBox();
+            this.txtWisdomModifier = new System.Windows.Forms.TextBox();
+            this.txtIntelligenceModifier = new System.Windows.Forms.TextBox();
+            this.txtConstitutionModifier = new System.Windows.Forms.TextBox();
+            this.txtDexterityModifier = new System.Windows.Forms.TextBox();
+            this.txtStrengthModifier = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCharismaScore = new System.Windows.Forms.TextBox();
+            this.txtWisdomScore = new System.Windows.Forms.TextBox();
+            this.txtIntelligenceScore = new System.Windows.Forms.TextBox();
+            this.txtConstitutionScore = new System.Windows.Forms.TextBox();
+            this.txtDexterityScore = new System.Windows.Forms.TextBox();
+            this.txtStrengthScore = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -68,8 +68,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.filesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -77,33 +77,33 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBox19);
-            this.groupBox1.Controls.Add(this.textBox20);
-            this.groupBox1.Controls.Add(this.textBox21);
-            this.groupBox1.Controls.Add(this.textBox22);
-            this.groupBox1.Controls.Add(this.textBox23);
-            this.groupBox1.Controls.Add(this.textBox24);
+            this.groupBox1.Controls.Add(this.txtCharismaTempModifier);
+            this.groupBox1.Controls.Add(this.txtWisdomTempModifier);
+            this.groupBox1.Controls.Add(this.txtIntelligenceTempModifier);
+            this.groupBox1.Controls.Add(this.txtConstitutionTempModifier);
+            this.groupBox1.Controls.Add(this.txtDexterityTempModifier);
+            this.groupBox1.Controls.Add(this.txtStrengthTempModifier);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.textBox13);
-            this.groupBox1.Controls.Add(this.textBox14);
-            this.groupBox1.Controls.Add(this.textBox15);
-            this.groupBox1.Controls.Add(this.textBox16);
-            this.groupBox1.Controls.Add(this.textBox17);
-            this.groupBox1.Controls.Add(this.textBox18);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.textBox8);
-            this.groupBox1.Controls.Add(this.textBox9);
-            this.groupBox1.Controls.Add(this.textBox10);
-            this.groupBox1.Controls.Add(this.textBox11);
-            this.groupBox1.Controls.Add(this.textBox12);
+            this.groupBox1.Controls.Add(this.txtCharismaTempAdjustment);
+            this.groupBox1.Controls.Add(this.txtWisdomTempAdjustment);
+            this.groupBox1.Controls.Add(this.txtIntelligenceTempAdjustment);
+            this.groupBox1.Controls.Add(this.txtConstitutionTempAdjustment);
+            this.groupBox1.Controls.Add(this.txtDexterityTempAdjustment);
+            this.groupBox1.Controls.Add(this.txtStrengthTempAdjustment);
+            this.groupBox1.Controls.Add(this.txtCharismaModifier);
+            this.groupBox1.Controls.Add(this.txtWisdomModifier);
+            this.groupBox1.Controls.Add(this.txtIntelligenceModifier);
+            this.groupBox1.Controls.Add(this.txtConstitutionModifier);
+            this.groupBox1.Controls.Add(this.txtDexterityModifier);
+            this.groupBox1.Controls.Add(this.txtStrengthModifier);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtCharismaScore);
+            this.groupBox1.Controls.Add(this.txtWisdomScore);
+            this.groupBox1.Controls.Add(this.txtIntelligenceScore);
+            this.groupBox1.Controls.Add(this.txtConstitutionScore);
+            this.groupBox1.Controls.Add(this.txtDexterityScore);
+            this.groupBox1.Controls.Add(this.txtStrengthScore);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -128,59 +128,59 @@
             this.label10.Text = "TEMP\r\nMODIFIER";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox19
+            // txtCharismaTempModifier
             // 
-            this.textBox19.Enabled = false;
-            this.textBox19.Location = new System.Drawing.Point(191, 177);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(39, 20);
-            this.textBox19.TabIndex = 32;
-            this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCharismaTempModifier.Enabled = false;
+            this.txtCharismaTempModifier.Location = new System.Drawing.Point(191, 177);
+            this.txtCharismaTempModifier.Name = "txtCharismaTempModifier";
+            this.txtCharismaTempModifier.Size = new System.Drawing.Size(39, 20);
+            this.txtCharismaTempModifier.TabIndex = 32;
+            this.txtCharismaTempModifier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox20
+            // txtWisdomTempModifier
             // 
-            this.textBox20.Enabled = false;
-            this.textBox20.Location = new System.Drawing.Point(191, 151);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(39, 20);
-            this.textBox20.TabIndex = 31;
-            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtWisdomTempModifier.Enabled = false;
+            this.txtWisdomTempModifier.Location = new System.Drawing.Point(191, 151);
+            this.txtWisdomTempModifier.Name = "txtWisdomTempModifier";
+            this.txtWisdomTempModifier.Size = new System.Drawing.Size(39, 20);
+            this.txtWisdomTempModifier.TabIndex = 31;
+            this.txtWisdomTempModifier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox21
+            // txtIntelligenceTempModifier
             // 
-            this.textBox21.Enabled = false;
-            this.textBox21.Location = new System.Drawing.Point(191, 125);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(39, 20);
-            this.textBox21.TabIndex = 30;
-            this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtIntelligenceTempModifier.Enabled = false;
+            this.txtIntelligenceTempModifier.Location = new System.Drawing.Point(191, 125);
+            this.txtIntelligenceTempModifier.Name = "txtIntelligenceTempModifier";
+            this.txtIntelligenceTempModifier.Size = new System.Drawing.Size(39, 20);
+            this.txtIntelligenceTempModifier.TabIndex = 30;
+            this.txtIntelligenceTempModifier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox22
+            // txtConstitutionTempModifier
             // 
-            this.textBox22.Enabled = false;
-            this.textBox22.Location = new System.Drawing.Point(191, 99);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(39, 20);
-            this.textBox22.TabIndex = 29;
-            this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtConstitutionTempModifier.Enabled = false;
+            this.txtConstitutionTempModifier.Location = new System.Drawing.Point(191, 99);
+            this.txtConstitutionTempModifier.Name = "txtConstitutionTempModifier";
+            this.txtConstitutionTempModifier.Size = new System.Drawing.Size(39, 20);
+            this.txtConstitutionTempModifier.TabIndex = 29;
+            this.txtConstitutionTempModifier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox23
+            // txtDexterityTempModifier
             // 
-            this.textBox23.Enabled = false;
-            this.textBox23.Location = new System.Drawing.Point(191, 73);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(39, 20);
-            this.textBox23.TabIndex = 28;
-            this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtDexterityTempModifier.Enabled = false;
+            this.txtDexterityTempModifier.Location = new System.Drawing.Point(191, 73);
+            this.txtDexterityTempModifier.Name = "txtDexterityTempModifier";
+            this.txtDexterityTempModifier.Size = new System.Drawing.Size(39, 20);
+            this.txtDexterityTempModifier.TabIndex = 28;
+            this.txtDexterityTempModifier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox24
+            // txtStrengthTempModifier
             // 
-            this.textBox24.Enabled = false;
-            this.textBox24.Location = new System.Drawing.Point(191, 47);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(39, 20);
-            this.textBox24.TabIndex = 27;
-            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtStrengthTempModifier.Enabled = false;
+            this.txtStrengthTempModifier.Location = new System.Drawing.Point(191, 47);
+            this.txtStrengthTempModifier.Name = "txtStrengthTempModifier";
+            this.txtStrengthTempModifier.Size = new System.Drawing.Size(39, 20);
+            this.txtStrengthTempModifier.TabIndex = 27;
+            this.txtStrengthTempModifier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label9
             // 
@@ -193,107 +193,107 @@
             this.label9.Text = "TEMP\r\nADJUST";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox13
+            // txtCharismaTempAdjustment
             // 
-            this.textBox13.Location = new System.Drawing.Point(140, 177);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(39, 20);
-            this.textBox13.TabIndex = 25;
-            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCharismaTempAdjustment.Location = new System.Drawing.Point(140, 177);
+            this.txtCharismaTempAdjustment.Name = "txtCharismaTempAdjustment";
+            this.txtCharismaTempAdjustment.Size = new System.Drawing.Size(39, 20);
+            this.txtCharismaTempAdjustment.TabIndex = 25;
+            this.txtCharismaTempAdjustment.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox14
+            // txtWisdomTempAdjustment
             // 
-            this.textBox14.Location = new System.Drawing.Point(140, 151);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(39, 20);
-            this.textBox14.TabIndex = 24;
-            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtWisdomTempAdjustment.Location = new System.Drawing.Point(140, 151);
+            this.txtWisdomTempAdjustment.Name = "txtWisdomTempAdjustment";
+            this.txtWisdomTempAdjustment.Size = new System.Drawing.Size(39, 20);
+            this.txtWisdomTempAdjustment.TabIndex = 24;
+            this.txtWisdomTempAdjustment.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox15
+            // txtIntelligenceTempAdjustment
             // 
-            this.textBox15.Location = new System.Drawing.Point(140, 125);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(39, 20);
-            this.textBox15.TabIndex = 23;
-            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtIntelligenceTempAdjustment.Location = new System.Drawing.Point(140, 125);
+            this.txtIntelligenceTempAdjustment.Name = "txtIntelligenceTempAdjustment";
+            this.txtIntelligenceTempAdjustment.Size = new System.Drawing.Size(39, 20);
+            this.txtIntelligenceTempAdjustment.TabIndex = 23;
+            this.txtIntelligenceTempAdjustment.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox16
+            // txtConstitutionTempAdjustment
             // 
-            this.textBox16.Location = new System.Drawing.Point(140, 99);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(39, 20);
-            this.textBox16.TabIndex = 22;
-            this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtConstitutionTempAdjustment.Location = new System.Drawing.Point(140, 99);
+            this.txtConstitutionTempAdjustment.Name = "txtConstitutionTempAdjustment";
+            this.txtConstitutionTempAdjustment.Size = new System.Drawing.Size(39, 20);
+            this.txtConstitutionTempAdjustment.TabIndex = 22;
+            this.txtConstitutionTempAdjustment.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox17
+            // txtDexterityTempAdjustment
             // 
-            this.textBox17.Location = new System.Drawing.Point(140, 73);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(39, 20);
-            this.textBox17.TabIndex = 21;
-            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtDexterityTempAdjustment.Location = new System.Drawing.Point(140, 73);
+            this.txtDexterityTempAdjustment.Name = "txtDexterityTempAdjustment";
+            this.txtDexterityTempAdjustment.Size = new System.Drawing.Size(39, 20);
+            this.txtDexterityTempAdjustment.TabIndex = 21;
+            this.txtDexterityTempAdjustment.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox18
+            // txtStrengthTempAdjustment
             // 
-            this.textBox18.Location = new System.Drawing.Point(140, 47);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(39, 20);
-            this.textBox18.TabIndex = 20;
-            this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtStrengthTempAdjustment.Location = new System.Drawing.Point(140, 47);
+            this.txtStrengthTempAdjustment.Name = "txtStrengthTempAdjustment";
+            this.txtStrengthTempAdjustment.Size = new System.Drawing.Size(39, 20);
+            this.txtStrengthTempAdjustment.TabIndex = 20;
+            this.txtStrengthTempAdjustment.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox7
+            // txtCharismaModifier
             // 
-            this.textBox7.Enabled = false;
-            this.textBox7.Location = new System.Drawing.Point(89, 177);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(39, 20);
-            this.textBox7.TabIndex = 19;
-            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCharismaModifier.Enabled = false;
+            this.txtCharismaModifier.Location = new System.Drawing.Point(89, 177);
+            this.txtCharismaModifier.Name = "txtCharismaModifier";
+            this.txtCharismaModifier.Size = new System.Drawing.Size(39, 20);
+            this.txtCharismaModifier.TabIndex = 19;
+            this.txtCharismaModifier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox8
+            // txtWisdomModifier
             // 
-            this.textBox8.Enabled = false;
-            this.textBox8.Location = new System.Drawing.Point(89, 151);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(39, 20);
-            this.textBox8.TabIndex = 18;
-            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtWisdomModifier.Enabled = false;
+            this.txtWisdomModifier.Location = new System.Drawing.Point(89, 151);
+            this.txtWisdomModifier.Name = "txtWisdomModifier";
+            this.txtWisdomModifier.Size = new System.Drawing.Size(39, 20);
+            this.txtWisdomModifier.TabIndex = 18;
+            this.txtWisdomModifier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox9
+            // txtIntelligenceModifier
             // 
-            this.textBox9.Enabled = false;
-            this.textBox9.Location = new System.Drawing.Point(89, 125);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(39, 20);
-            this.textBox9.TabIndex = 17;
-            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtIntelligenceModifier.Enabled = false;
+            this.txtIntelligenceModifier.Location = new System.Drawing.Point(89, 125);
+            this.txtIntelligenceModifier.Name = "txtIntelligenceModifier";
+            this.txtIntelligenceModifier.Size = new System.Drawing.Size(39, 20);
+            this.txtIntelligenceModifier.TabIndex = 17;
+            this.txtIntelligenceModifier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox10
+            // txtConstitutionModifier
             // 
-            this.textBox10.Enabled = false;
-            this.textBox10.Location = new System.Drawing.Point(89, 99);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(39, 20);
-            this.textBox10.TabIndex = 16;
-            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtConstitutionModifier.Enabled = false;
+            this.txtConstitutionModifier.Location = new System.Drawing.Point(89, 99);
+            this.txtConstitutionModifier.Name = "txtConstitutionModifier";
+            this.txtConstitutionModifier.Size = new System.Drawing.Size(39, 20);
+            this.txtConstitutionModifier.TabIndex = 16;
+            this.txtConstitutionModifier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox11
+            // txtDexterityModifier
             // 
-            this.textBox11.Enabled = false;
-            this.textBox11.Location = new System.Drawing.Point(89, 73);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(39, 20);
-            this.textBox11.TabIndex = 15;
-            this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtDexterityModifier.Enabled = false;
+            this.txtDexterityModifier.Location = new System.Drawing.Point(89, 73);
+            this.txtDexterityModifier.Name = "txtDexterityModifier";
+            this.txtDexterityModifier.Size = new System.Drawing.Size(39, 20);
+            this.txtDexterityModifier.TabIndex = 15;
+            this.txtDexterityModifier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox12
+            // txtStrengthModifier
             // 
-            this.textBox12.Enabled = false;
-            this.textBox12.Location = new System.Drawing.Point(89, 47);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(39, 20);
-            this.textBox12.TabIndex = 14;
-            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtStrengthModifier.Enabled = false;
+            this.txtStrengthModifier.Location = new System.Drawing.Point(89, 47);
+            this.txtStrengthModifier.Name = "txtStrengthModifier";
+            this.txtStrengthModifier.Size = new System.Drawing.Size(39, 20);
+            this.txtStrengthModifier.TabIndex = 14;
+            this.txtStrengthModifier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label8
             // 
@@ -317,59 +317,60 @@
             this.label7.Text = "ABILITY\r\nSCORE";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // textBox6
+            // txtCharismaScore
             // 
-            this.textBox6.Enabled = false;
-            this.textBox6.Location = new System.Drawing.Point(38, 177);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(39, 20);
-            this.textBox6.TabIndex = 11;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCharismaScore.Enabled = false;
+            this.txtCharismaScore.Location = new System.Drawing.Point(38, 177);
+            this.txtCharismaScore.Name = "txtCharismaScore";
+            this.txtCharismaScore.Size = new System.Drawing.Size(39, 20);
+            this.txtCharismaScore.TabIndex = 11;
+            this.txtCharismaScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox5
+            // txtWisdomScore
             // 
-            this.textBox5.Enabled = false;
-            this.textBox5.Location = new System.Drawing.Point(38, 151);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(39, 20);
-            this.textBox5.TabIndex = 10;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtWisdomScore.Enabled = false;
+            this.txtWisdomScore.Location = new System.Drawing.Point(38, 151);
+            this.txtWisdomScore.Name = "txtWisdomScore";
+            this.txtWisdomScore.Size = new System.Drawing.Size(39, 20);
+            this.txtWisdomScore.TabIndex = 10;
+            this.txtWisdomScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox4
+            // txtIntelligenceScore
             // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(38, 125);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(39, 20);
-            this.textBox4.TabIndex = 9;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtIntelligenceScore.Enabled = false;
+            this.txtIntelligenceScore.Location = new System.Drawing.Point(38, 125);
+            this.txtIntelligenceScore.Name = "txtIntelligenceScore";
+            this.txtIntelligenceScore.Size = new System.Drawing.Size(39, 20);
+            this.txtIntelligenceScore.TabIndex = 9;
+            this.txtIntelligenceScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox3
+            // txtConstitutionScore
             // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(38, 99);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(39, 20);
-            this.textBox3.TabIndex = 8;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtConstitutionScore.Enabled = false;
+            this.txtConstitutionScore.Location = new System.Drawing.Point(38, 99);
+            this.txtConstitutionScore.Name = "txtConstitutionScore";
+            this.txtConstitutionScore.Size = new System.Drawing.Size(39, 20);
+            this.txtConstitutionScore.TabIndex = 8;
+            this.txtConstitutionScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // txtDexterityScore
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(38, 73);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(39, 20);
-            this.textBox2.TabIndex = 7;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtDexterityScore.Enabled = false;
+            this.txtDexterityScore.Location = new System.Drawing.Point(38, 73);
+            this.txtDexterityScore.Name = "txtDexterityScore";
+            this.txtDexterityScore.Size = new System.Drawing.Size(39, 20);
+            this.txtDexterityScore.TabIndex = 7;
+            this.txtDexterityScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox1
+            // txtStrengthScore
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(38, 47);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(39, 20);
-            this.textBox1.TabIndex = 6;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtStrengthScore.Enabled = false;
+            this.txtStrengthScore.Location = new System.Drawing.Point(38, 47);
+            this.txtStrengthScore.Name = "txtStrengthScore";
+            this.txtStrengthScore.Size = new System.Drawing.Size(39, 20);
+            this.txtStrengthScore.TabIndex = 6;
+            this.txtStrengthScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtStrengthScore.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label6
             // 
@@ -460,21 +461,21 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
-            // 
-            // quitToolStripMenuItem
-            // 
-            this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.quitToolStripMenuItem.Text = "Quit";
-            this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(100, 6);
+            // 
+            // quitToolStripMenuItem
+            // 
+            this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.quitToolStripMenuItem.Text = "Quit";
+            this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -499,33 +500,33 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox txtCharismaTempModifier;
+        private System.Windows.Forms.TextBox txtWisdomTempModifier;
+        private System.Windows.Forms.TextBox txtIntelligenceTempModifier;
+        private System.Windows.Forms.TextBox txtConstitutionTempModifier;
+        private System.Windows.Forms.TextBox txtDexterityTempModifier;
+        private System.Windows.Forms.TextBox txtStrengthTempModifier;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtCharismaTempAdjustment;
+        private System.Windows.Forms.TextBox txtWisdomTempAdjustment;
+        private System.Windows.Forms.TextBox txtIntelligenceTempAdjustment;
+        private System.Windows.Forms.TextBox txtConstitutionTempAdjustment;
+        private System.Windows.Forms.TextBox txtDexterityTempAdjustment;
+        private System.Windows.Forms.TextBox txtStrengthTempAdjustment;
+        private System.Windows.Forms.TextBox txtCharismaModifier;
+        private System.Windows.Forms.TextBox txtWisdomModifier;
+        private System.Windows.Forms.TextBox txtIntelligenceModifier;
+        private System.Windows.Forms.TextBox txtConstitutionModifier;
+        private System.Windows.Forms.TextBox txtDexterityModifier;
+        private System.Windows.Forms.TextBox txtStrengthModifier;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCharismaScore;
+        private System.Windows.Forms.TextBox txtWisdomScore;
+        private System.Windows.Forms.TextBox txtIntelligenceScore;
+        private System.Windows.Forms.TextBox txtConstitutionScore;
+        private System.Windows.Forms.TextBox txtDexterityScore;
+        private System.Windows.Forms.TextBox txtStrengthScore;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label label5;
