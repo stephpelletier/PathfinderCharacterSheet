@@ -28,23 +28,20 @@ namespace PathfinderCharacterSheet
             charismaAdjustment = 0;
         }
 
-        public List<int> getStats()
+        public int[] getStats()
         {
-            List<int> stats = new List<int>();
 
-            stats.Add(strength);
-            stats.Add(dexterity);
-            stats.Add(constitution);
-            stats.Add(intelligence);
-            stats.Add(wisdom);
-            stats.Add(charisma);
+            int[,] stats = new int[6,4];
 
-            stats.Add(strengthAdjustment);
-            stats.Add(dexterityAdjustment);
-            stats.Add(constitutionAdjustment);
-            stats.Add(intelligenceAdjustment);
-            stats.Add(wisdomAdjustment);
-            stats.Add(charismaAdjustment);
+            int abilityScoreColumn = 0;
+            int abilityModifierColumn = 1;
+            int temporaryScoreAdjustmentColumn = 2;
+            int temporaryModifierColumn = 3;
+
+            for(int row = 0; row < 6; row++)
+            {
+
+            }
 
             return stats;
         }
