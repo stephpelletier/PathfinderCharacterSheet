@@ -15,9 +15,9 @@ namespace PathfinderCharacterSheet
             stats = new Stats();
         }
 
-        public List<int> getStats()
+        public StatsDTO getStats()
         {
-            return stats.getStats();
+            return stats.getAllStats();
         }
 
     }
