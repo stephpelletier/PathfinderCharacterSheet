@@ -8,40 +8,56 @@ namespace PathfinderCharacterSheet
 {
     class Stats
     {
-        private int strength, dexterity, constitution, intelligence, wisdom, charisma;
-        private int strengthAdjustment, dexterityAdjustment, constitutionAdjustment, intelligenceAdjustment, wisdomAdjustment, charismaAdjustment;
+        private Ability strenght;
+        private Ability dexterity;
+        private Ability constitution;
+        private Ability intelligence;
+        private Ability wisdom;
+        private Ability charisma;
 
         public Stats()
         {
-            strength = 0;
-            dexterity = 0;
-            constitution = 0;
-            intelligence = 0;
-            wisdom = 0;
-            charisma = 0;
-
-            strengthAdjustment = 0;
-            dexterityAdjustment = 0;
-            constitutionAdjustment = 0;
-            intelligenceAdjustment = 0;
-            wisdomAdjustment = 0;
-            charismaAdjustment = 0;
+            strenght = new Ability(0);
+            dexterity = new Ability(0);
+            constitution = new Ability(0);
+            intelligence = new Ability(0);
+            wisdom = new Ability(0);
+            charisma = new Ability(0);
         }
 
-        public int[] getStats()
+        public StatsDTO getAllStats()
         {
+            StatsDTO stats = new StatsDTO();
 
-            int[,] stats = new int[6,4];
+            stats.strenghtScore = strenght.getScore();
+            stats.strenghtModifier = strenght.getModifier();
+            stats.strenghtTempAdjustment = strenght.getTemporaryAdjustment();
+            stats.strenghtTempModifier = strenght.getTemporaryModifier();
 
-            int abilityScoreColumn = 0;
-            int abilityModifierColumn = 1;
-            int temporaryScoreAdjustmentColumn = 2;
-            int temporaryModifierColumn = 3;
+            stats.dexterityScore = dexterity.getScore();
+            stats.dexterityModifier = dexterity.getModifier();
+            stats.dexterityTempAdjustment = dexterity.getTemporaryAdjustment();
+            stats.dexterityTempModifier = dexterity.getTemporaryModifier();
 
-            for(int row = 0; row < 6; row++)
-            {
+            stats.constitutionScore = constitution.getScore();
+            stats.constitutionModifier = constitution.getModifier();
+            stats.constitutionTempAdjustment = constitution.getTemporaryAdjustment();
+            stats.constitutionTempModifier = constitution.getTemporaryModifier();
 
-            }
+            stats.intelligenceScore = intelligence.getScore();
+            stats.intelligenceModifier = intelligence.getModifier();
+            stats.intelligenceTempAdjustment = intelligence.getTemporaryAdjustment();
+            stats.intelligenceTempModifier = intelligence.getTemporaryModifier();
+
+            stats.wisdomScore = wisdom.getScore();
+            stats.wisdomModifier = wisdom.getModifier();
+            stats.wisdomTempAdjustment = wisdom.getTemporaryAdjustment();
+            stats.wisdomTempModifier = wisdom.getTemporaryModifier();
+
+            stats.charismaScore = charisma.getScore();
+            stats.charismaModifier = charisma.getModifier();
+            stats.charismaTempAdjustment = charisma.getTemporaryAdjustment();
+            stats.charismaTempModifier = charisma.getTemporaryModifier();
 
             return stats;
         }
