@@ -35,5 +35,37 @@ namespace PathfinderCharacterSheet.Character.Statistics
             modifier = (int)Math.Floor(tempScore/2);
             tempModifier = (int)Math.Floor((tempScore + tempModifier)/2);
         }
+
+        public void setScore(int newScore)
+        {
+            this.score = newScore;
+            calculateStats();
+        }
+
+        public void setTemporaryAdjustment(int newTempAdjustment)
+        {
+            this.tempAdjustment = newTempAdjustment;
+            calculateStats();
+        }
+
+        public int getScore()
+        {
+            return score;
+        }
+
+        public int getModifier()
+        {
+            return modifier;
+        }
+
+        public int getTemporaryAdjustment()
+        {
+            return tempAdjustment;
+        }
+
+        public int getTemporaryModifier()
+        {
+            return tempModifier;
+        }
     }
 }
