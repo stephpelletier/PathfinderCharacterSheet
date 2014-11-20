@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PathfinderCharacterSheet
 {
-    struct StatsDTO
+    public struct StatsDTO
     {
         public int strenghtScore;
         public int strenghtModifier;
