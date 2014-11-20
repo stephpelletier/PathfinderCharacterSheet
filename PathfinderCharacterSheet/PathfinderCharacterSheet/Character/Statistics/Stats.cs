@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PathfinderCharacterSheet
 {
-    class Stats
+    public class Stats
     {
         private Ability strenght;
         private Ability dexterity;

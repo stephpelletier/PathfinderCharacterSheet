@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PathfinderCharacterSheet
 {
-    class Ability
+    public class Ability
     {
         private int score;
         private int modifier;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PathfinderCharacterSheet
 {
-    class Character
+    public class Character
     {
         private Stats stats;
 
