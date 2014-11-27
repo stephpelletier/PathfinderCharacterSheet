@@ -8,37 +8,33 @@ namespace PathfinderCharacterSheet
 {
     public class Ability
     {
-        private int score;
-        private int modifier;
-        private int tempAdjustment;
-        private int tempModifier;
+        private int score = 0;
+        private int modifier = 0;
+        private int tempAdjustment = 0;
+        private int tempModifier = 0;
 
         public Ability(int abilityScore)
         {
-            this.score = abilityScore;
-            this.tempAdjustment = 0;
-
-            calculateStats();
+            setupAbility(abilityScore, 0);
         }
 
         public Ability(int abilityScore, int temporaryAdjustment)
         {
-            this.score = abilityScore;
-            this.tempAdjustment = temporaryAdjustment;
-
-            calculateStats();
+            setupAbility(abilityScore, temporaryAdjustment);
         }
 
-        private void calculateStats()
+        private void setupAbility(int abilityScore, int temporaryAdjustment)
         {
-            double tempScore = score - 10;
-            modifier = (int)Math.Floor(tempScore/2);
-            tempModifier = (int)Math.Floor((tempScore + tempModifier)/2);
+            setScore(abilityScore);
+            setTemporaryAdjustment(temporaryAdjustment);
         }
 
         public void setScore(int newScore)
         {
-            this.score = newScore;
+            if (newScore < 0)
+                score = 0;
+            else
+                this.score = newScore;
             calculateStats();
         }
 
@@ -46,6 +42,13 @@ namespace PathfinderCharacterSheet
         {
             this.tempAdjustment = newTempAdjustment;
             calculateStats();
+        }
+
+        private void calculateStats()
+        {
+            double tempScore = score - 10;
+            modifier = (int)Math.Floor(tempScore / 2);
+            tempModifier = (int)Math.Floor((tempScore + tempAdjustment) / 2);
         }
 
         public int getScore()
