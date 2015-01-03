@@ -12,6 +12,8 @@ namespace PathfinderCharacterSheet
 {
     public partial class Form1 : Form
     {
+        Character character;
+
         public Form1()
         {
             InitializeComponent();
@@ -19,7 +21,7 @@ namespace PathfinderCharacterSheet
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Character character = new Character();
+            character = new Character();
 
             StatsDTO characterStats = character.getStats();
 
@@ -59,9 +61,9 @@ namespace PathfinderCharacterSheet
             Application.Exit();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void txtStrengthTempAdjustment_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

@@ -240,6 +240,7 @@
             this.txtStrengthTempAdjustment.Size = new System.Drawing.Size(39, 20);
             this.txtStrengthTempAdjustment.TabIndex = 20;
             this.txtStrengthTempAdjustment.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtStrengthTempAdjustment.TextChanged += new System.EventHandler(this.txtStrengthTempAdjustment_TextChanged);
             // 
             // txtCharismaModifier
             // 
@@ -370,7 +371,6 @@
             this.txtStrengthScore.Size = new System.Drawing.Size(39, 20);
             this.txtStrengthScore.TabIndex = 6;
             this.txtStrengthScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtStrengthScore.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label6
             // 
